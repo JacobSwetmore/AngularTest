@@ -1,1 +1,2 @@
-<p>homepage works!</p>
+<p *ngIf="currentJoke">{{currentJoke.joke}}</p>
+<button type="submit" class="form-control btn btn-danger" (click)="getNewJoke()">Get a new pun</button>
